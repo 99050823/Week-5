@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kaas</title>
+</head>
+<body>
+	<h1>Kaas</h1>
+	<script>
+
+		var answer;
+
+		answer = prompt("Is de kaas geel?");
+
+		if(answer == "ja"){
+			answer = prompt("Zitten er gaten in?");
+
+			if(answer == "ja"){
+				answer = prompt("Is de kaas belachelijk duur?");
+
+				if(answer == "ja"){
+					answer = alert("Emmenthaler");
+				}
+				else {
+					answer = alert("Leerdammer");
+				}
+			}
+			else {
+				answer = prompt("Is de kaas zo hard als steen?");
+
+				if(answer == "ja"){
+					answer = alert("Parmigiano Reggiano");
+
+				}
+				else {
+					answer = alert("Goudse kaas");
+				}
+			}
+		} 
+		else {
+			answer = prompt("Heeft de kaas blauwe schimmel?");
+
+			if(answer == "ja"){
+				answer = prompt("Heeft de kaas een korst?");
+
+				if(answer == "ja"){
+					answer = alert("Bleu de rochebaron");
+				}
+				else{
+					answer = alert("Fourme de ambert");
+				}
+			}
+			else{
+				answer = prompt("Heeft de kaas een korst?");
+
+				if(answer == "ja"){
+					answer = alert("Camembert");
+				}
+				else{
+					answer = alert("Mozzarella");
+				}
+			}
+		}
+
+	</script>
+</body>
+</html>
